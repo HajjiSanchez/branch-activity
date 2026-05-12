@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renle & Haji | Branch-Activity</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Thick UI / Neo-Brutalist Custom Utilities */
+        .thick-box {
+            border: 4px solid #111827;
+            box-shadow: 8px 8px 0px #111827;
+            transition: all 0.2s ease;
+        }
+        .thick-box-sm {
+            border: 3px solid #111827;
+            box-shadow: 4px 4px 0px #111827;
+        }
+        .thick-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 10px 10px 0px #111827;
+        }
+        .thick-btn:active {
+            transform: translate(4px, 4px);
+            box-shadow: 2px 2px 0px #111827;
+        }
+    </style>
+</head>
+<body class="bg-[#F4F9F4] text-gray-900 font-sans antialiased selection:bg-[#4ADE80]">
+
+    <header class="container mx-auto max-w-6xl px-4 py-6">
+        <nav class="thick-box bg-white p-4 flex justify-between items-center rounded-xl">
+            <div class="text-2xl font-black tracking-tight flex items-center gap-2">
+                <span class="bg-[#22C55E] p-1.5 thick-box-sm rounded-lg text-white">🌿</span>
+                RENLE & HAJI
+            </div>
+            <div class="hidden md:flex gap-8 font-bold">
+                <a href="#about" class="hover:text-[#166534] transition-colors">The Mission</a>
+                <a href="#activity" class="hover:text-[#166534] transition-colors">Branch-Activity</a>
+                <a href="#impact" class="hover:text-[#166534] transition-colors">Our Impact</a>
+            </div>
+            <a href="#join" class="thick-box-sm thick-btn bg-[#4ADE80] font-black px-5 py-2 rounded-lg text-sm uppercase tracking-wider">
+                Get Involved
+            </a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto max-w-6xl px-4 py-12 md:py-20">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            
+            <div class="md:col-span-7 space-y-6">
+                <div class="inline-block thick-box-sm bg-[#DCFCE7] text-[#166534] font-black text-xs px-3 py-1.5 rounded-full uppercase tracking-widest">
+                    Active Environmentalism
+                </div>
+                <h1 class="text-5xl md:text-7xl font-black tracking-tight leading-none text-gray-900">
+                    Rebuild the Canopy. <br>
+                    <span class="bg-[#22C55E] text-white px-3 inline-block thick-box my-2 transform -rotate-1">
+                        Branch by Branch.
+                    </span>
+                </h1>
+                <p class="text-xl font-medium text-gray-700 max-w-xl border-l-4 border-[#22C55E] pl-4">
+                    Renle & Haji’s <strong>Branch-Activity</strong> is a boots-on-the-ground movement designed to restore local ecosystems, track reforestation progress, and reconnect communities with nature.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="#activity" class="thick-box thick-btn text-center bg-[#22C55E] text-white font-black text-lg px-8 py-4 rounded-xl uppercase tracking-wide">
+                        Join Next Activity
+                    </a>
+                    <a href="#about" class="thick-box thick-btn text-center bg-white text-gray-900 font-black text-lg px-8 py-4 rounded-xl uppercase tracking-wide">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:col-span-5">
+                <div class="thick-box bg-[#BBF7D0] p-8 rounded-2xl relative overflow-hidden transform rotate-2">
+                    <div class="absolute top-0 right-0 bg-[#4ADE80] thick-box-sm p-2 text-xs font-black rounded-bl-xl">
+                        LIVE TRACKER
+                    </div>
+                    <div class="space-y-6">
+                        <div class="text-6xl">🌳</div>
+                        <h3 class="text-3xl font-black">Branch-Activity v2.6</h3>
+                        <p class="font-bold text-gray-800">We don't just plant seeds; we nurture mature branches to ensure a 94% survival rate for regional deforested zones.</p>
+                        
+                        <div class="thick-box-sm bg-white p-4 rounded-xl space-y-2">
+                            <div class="flex justify-between font-black text-sm">
+                                <span>TOTAL TREES PLANTED</span>
+                                <span class="text-[#166534]">84,291</span>
+                            </div>
+                            <div class="w-full bg-gray-200 h-6 thick-box-sm rounded-md overflow-hidden">
+                                <div class="bg-[#22C55E] h-full w-[84%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
